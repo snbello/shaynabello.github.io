@@ -1682,11 +1682,11 @@ input, select, textarea {
 		border: 0;
 		outline: 0;
 		cursor: pointer;
-		border-radius: 2px;
+		border-radius: 5px;
 		text-shadow: -1px -1px 0.5px rgba(0, 0, 0, 0.5);
 		overflow: hidden;
-		
-		background-color: #778899
+		box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.5), inset 0px 2px 1px 0px rgba(255, 255, 255, 0.75);
+		background-color: #63496f
 		;
 		padding: 1em 2.35em 1em 2.35em;
 		font-size: 1.1em;
